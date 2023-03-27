@@ -1,17 +1,13 @@
 import "./App.css";
-import MainHeader from "./components/MainHeader";
-import ImgComponent from "./components/ImgComponent";
-import BtnComponent from "./components/Btn";
-import ClassComponent from "./components/ClassComponent";
-import FunctionalComponent from "./components/FunctionalComponent";
+import Counter from "./components/Counter";
+import Condition from "./components/Condition";
+import ClassState from "./components/ClassState";
+import State from "./components/State";
+import StateVariable from "./components/StateVariable";
 function App() {
   return (
     <div className="App">
-      <MainHeader />
-      <ImgComponent />
-      <BtnComponent />
-      {/* <ClassComponent />
-      <FunctionalComponent /> */}
+      <StateVariable />
     </div>
   );
 }

@@ -4,7 +4,7 @@ class ClassComponent extends Component {
   render() {
     return (
       <>
-        <h1>Class Component</h1>
+        <h1 className="test">Class Component</h1>
       </>
     );
   }
